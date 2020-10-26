@@ -226,9 +226,9 @@ main {
   height: 3rem;
   margin: 0 auto;
   margin-top: 1.5rem;
-  padding: .8rem;
+  padding: 0.8rem;
   background-color: var(--soft-orange);
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 .currency-table--date p {
   font-size: 1.2rem;
@@ -244,3 +244,98 @@ main {
 .currency-table--date.date--blue {
   background-color: var(--soft-blue);
 }
+/************* Main styles end *************/
+
+/************* Sección beneficios *************/
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  padding: 2rem 1rem;
+  background: var(--black);
+}
+.product-detail--batata-logo {
+  position: absolute;
+  width: 4rem;
+  height: 2.5rem;
+  background: url("../assets/icons/batata.svg");
+  top: calc(0% - 12.5px);
+  left: calc(50% - 20px);
+}
+.product-detail--title {
+  width: 90%;
+  min-width: 28.8rem;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+.product-detail--title h2 {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+.product-detail--title p {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-weight: var(--size-500);
+  line-height: 1.8rem;
+  color: #808080;
+}
+.product-detail--card {
+  width: 90%;
+  min-width: 28.8rem;
+  max-width: 40rem;
+  height: 15rem;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background: var(--warm-black);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .clock {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background: url("../assets/icons/clock.svg") center/cover no-repeat;
+}
+.product-detail--card .eye {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background: url("../assets/icons/eye.svg") center/cover no-repeat;
+}
+.product-detail--card .dollar {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background: url("../assets/icons/dollar-sign.svg") center/cover no-repeat;
+}
+.product-detail--card .check {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background: url("../assets/icons/check-circle.svg") center/cover no-repeat;
+}
+.product--card-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+.product--card-body {
+  font-size: 1.39rem;
+  font-weight: var(--size-500);
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+/************* Sección beneficios end*************/
