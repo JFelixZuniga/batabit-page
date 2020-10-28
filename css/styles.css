@@ -168,8 +168,6 @@ main {
   font-weight: bold;
   line-height: 2.3rem;
   color: var(--bitcoin-orange);
-  text-align: start;
-  padding-left: 1.5rem;
 }
 .currency-table--container {
   width: 90%;
@@ -239,8 +237,6 @@ main {
 }
 .currency-table--title.title--blue {
   color: var(--secondary-blue);
-  text-align: start;
-  padding-left: 1.5rem;
 }
 .currency-table--date.date--blue {
   background-color: var(--soft-blue);
@@ -488,5 +484,9 @@ footer .left ul {
 }
 .left a {
   color: var(--just-white);
+}
+.right img {
+  width: 10rem;
+  height: 10rem;
 }
 /************* Footer styles end *************/
